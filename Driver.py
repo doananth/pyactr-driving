@@ -1,5 +1,8 @@
 class Driver:
-    def __init__(self, model, nameArg, ageArg, steeringArg, stabilityArg):
+    # Need to find out how to define a model
+    model = Model()
+
+    def __init__(self, nameArg, ageArg, steeringArg, stabilityArg):
         self.name = nameArg
         self.age = ageArg
         self.steeringFactor = steeringArg
