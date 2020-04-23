@@ -4,6 +4,7 @@ import traceback
 
 from random import randrange
 
+# Utility class with various useful methods
 
 class Utilities:
     # From java

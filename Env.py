@@ -9,6 +9,7 @@ from Position import Position
 
 # Need to import 'Graphics' file
 
+# The main driving environment that includes all other components of the environment
 class Env:
     scenario = Scenario() 
     scenario = None

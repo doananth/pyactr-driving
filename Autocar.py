@@ -1,6 +1,8 @@
 from Vehicle import Vehicle
 import math
 
+# An automated car that drives itself down the road
+
 class Autocar:
     def __init__(self):
         self.braking = False

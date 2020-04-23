@@ -1,4 +1,7 @@
 from Driver import Driver
+
+# Class that defines useful measures for data collection
+
 class Results:
 
     driver = Driver()
@@ -14,4 +17,5 @@ class Results:
 	    self.brakeRT = None
     
     def toString(self):
-        return_string = ("(" + self.taskTime + ", " + self.taskLatDev + ", " + self.taskLatVel + ", " + self.brakeRT + ", " + self.headingError + ", " + self.taskSpeedDev + ")")
+        return_string = "(" + str(self.taskTime) + ", " + str(self.taskLatDev) + ", " + str(self.taskLatVel) + ", " + str(self.brakeRT) + ", " + str(self.headingError) + ", " + str(self.taskSpeedDev) + ")"
+		return return_string

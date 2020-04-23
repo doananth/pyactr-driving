@@ -1,3 +1,5 @@
+# Simple class for x,y coordinates plus depth
+
 class Coordinate:
     def __init__(self, xArg, yArg):
         self.x = xArg

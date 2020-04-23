@@ -6,6 +6,8 @@ from Simcar import Simcar
 
 import math
 
+# Primary class that defines a road
+
 class Road:
     segments = segments.zeros()
     lanes = 3

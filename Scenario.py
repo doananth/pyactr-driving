@@ -1,3 +1,5 @@
+# Class that defines the particular scenario represented by the driving environment
+
 class Scenario:
     def __init__(self):
        #super().__init__()

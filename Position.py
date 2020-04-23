@@ -1,5 +1,7 @@
 import math
 
+# Class representing position in space in the simulation
+
 class Position:
     def __init__(self, xArg, zArg):
         self.x = xArg
